@@ -1,0 +1,668 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-09-27T14:49:17.347Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "mirha",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-09-27T14:57:59.681Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Post object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-09-27T14:59:11.671Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "raheela",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-09-27T15:00:43.284Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Post object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-09-27T15:02:17.021Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "abdul",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-09-27T15:03:35.774Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Post object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-09-30T10:15:52.954Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Comment object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-09-30T14:25:50.496Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "my post | written by abdul",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-09-30T14:27:59.513Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "screen | written by mirha",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-09-30T14:37:39.987Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "bottle | written by rania",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add post",
+        "content_type": 7,
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change post",
+        "content_type": 7,
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete post",
+        "content_type": 7,
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view post",
+        "content_type": 7,
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 8,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 8,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 8,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 8,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add attachment",
+        "content_type": 9,
+        "codename": "add_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change attachment",
+        "content_type": 9,
+        "codename": "change_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete attachment",
+        "content_type": 9,
+        "codename": "delete_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view attachment",
+        "content_type": 9,
+        "codename": "view_attachment"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$HcxEEPKLUXYC6cLVbpxLhi$W36Obe3y9dRvLAVJqDhBBA/9j7k+/nOBEJTWf1u3Ifs=",
+        "last_login": "2024-10-01T16:48:00.811Z",
+        "is_superuser": true,
+        "username": "rania",
+        "first_name": "",
+        "last_name": "",
+        "email": "raheela.aftab@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-26T10:00:04.595Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ON2IIhqI4ICdPFVnUjxc4W$7jxUu7+UiuMRCQ1og2g3Gigk8J9SuEDYoGszjmym33o=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "mirha",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-27T14:49:16.991Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$gkmTfCZpZNx4gU4lVb67ng$vhKU6SJOYayfjg/UJcXNWPINLCCLWniThY844s/qyi8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "raheela",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-27T14:59:11.401Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$sGk8Go7IfnCdapmGb5AhtL$Wy5OE2GbKYuzTQAKjW1fNzLURLvpxb6CpEoxZQrEQ5A=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "abdul",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-27T15:02:16.758Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "blog",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "blog",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "django_summernote",
+        "model": "attachment"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "1k2vhlbgnbw29xibicvgshwp919ctfjv",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlle_0NJnzNYtneNA8iR4qRC3J1ESgHtm5n3ZiFuaw1bpyVMyK4M2OV3SzE_qR0AH7HdZ57nti5T4ofCT9r5OCO9bqf7d1Bjr3sti8teDC4XnZ2RPoFw4GUxCQopIxySIhiyLRaEUojai-SFdcZbvUP2-QLODzcj:1su93p:xWFNTuPs-KYaFkrrK4KGz6bFkmSMSxk4FYPU2dPJYMw",
+        "expire_date": "2024-10-11T11:22:57.281Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jlirpztyjobodupr2i8zzth5ulj4gnnu",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlle_0NJnzNYtneNA8iR4qRC3J1ESgHtm5n3ZiFuaw1bpyVMyK4M2OV3SzE_qR0AH7HdZ57nti5T4ofCT9r5OCO9bqf7d1Bjr3sti8teDC4XnZ2RPoFw4GUxCQopIxySIhiyLRaEUojai-SFdcZbvUP2-QLODzcj:1svg2a:6k8aGZ67SLmLxvvaDnSAJ_3-n1tSjMhJGNW_XX_DaYs",
+        "expire_date": "2024-10-15T16:48:00.891Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ldt3yerj1t5vr7n4qxn264go85sa67sp",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlle_0NJnzNYtneNA8iR4qRC3J1ESgHtm5n3ZiFuaw1bpyVMyK4M2OV3SzE_qR0AH7HdZ57nti5T4ofCT9r5OCO9bqf7d1Bjr3sti8teDC4XnZ2RPoFw4GUxCQopIxySIhiyLRaEUojai-SFdcZbvUP2-QLODzcj:1su9xW:rNF5cdRZlyC2GvaQDOqn7JZoPWi_uj34JAz5MoQYu-c",
+        "expire_date": "2024-10-11T12:20:30.091Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lmbi8f8kg82yb8qr8tyxwdxqzwjdjz0i",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlle_0NJnzNYtneNA8iR4qRC3J1ESgHtm5n3ZiFuaw1bpyVMyK4M2OV3SzE_qR0AH7HdZ57nti5T4ofCT9r5OCO9bqf7d1Bjr3sti8teDC4XnZ2RPoFw4GUxCQopIxySIhiyLRaEUojai-SFdcZbvUP2-QLODzcj:1stqna:vR0k8lRNT2vg2Bs7HXYF6h9SYkA9O1-2QKJz4F1QwAg",
+        "expire_date": "2024-10-10T15:52:58.595Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "my post",
+        "slug": "my-post",
+        "author": 4,
+        "content": "abchdkjkjshflkshlfhslfhsl\r\nsjkfhsfhsjkfhjkshfkj\r\nfhkjshfjkhsjkfhsajfh\r\njskajdhlhsajdhlajk",
+        "created_on": "2024-09-30T14:25:50.409Z",
+        "status": 1
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "screen",
+        "slug": "screen",
+        "author": 2,
+        "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "created_on": "2024-09-30T14:27:59.437Z",
+        "status": 1
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "bottle",
+        "slug": "bottle",
+        "author": 1,
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+        "created_on": "2024-09-30T14:37:39.908Z",
+        "status": 1
+    }
+}
+]
