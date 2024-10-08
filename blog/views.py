@@ -62,9 +62,11 @@ from .models import Comment
 def comment_edit(request, comment_id):
     comment = get_object_or_404(Comment, pk=comment_id)
 
+
     if request.method == 'POST':
         form = CommentForm(request.POST, instance=comment)
         if form.is_valid():
+            comment.approved = False
             form.save()
             return redirect('post_detail', slug=comment.post.slug)
     else:
